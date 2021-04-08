@@ -1,0 +1,44 @@
+HTML
+<html>
+	<head>
+		<title> </title>
+	</head>
+	<body>
+		<h1> </h1>
+	</body>
+</html>
+_______________________________________________________
+1. HTML 5 use <!DOCTYPEhtml>
+2. Inline Elements 
+	- <span>
+	- <img>
+	- <a>
+3. Block Elements
+	- <div>
+	- <h1>- <h6>
+	- <p>
+	- <form>
+4. <strong> is to bold text
+5. <em> is to make text to italic
+6. <a> is to insert link
+7. Tag Attributes:
+	- all tags have attributes
+	-provide info abt an element
+	- id or class name
+8. <ul> is for bullet list
+9. <ol> is for number list
+10. <table>
+11. <abbrv>
+12. <cite> 
+13. Semantic Tags:
+	-<header>
+	-<footer>
+	-<aside>
+	-<main>
+	-<article>
+	-<nav>
+	-<section>
+	-<details>
+14. Meta tags is for google to easily find the web in searches
+	<meta name="description" content="qwertyuiop">
+	<meta name="keywords" content="alyssa, software engineer, women"> 
