@@ -1,0 +1,24 @@
+CSS for beginner
+
+1. Cascading Stylesheets
+2. used for website layout and design
+3. Can be extended with SASS/ LESS
+4. Ways adding CSS:
+	- inline CSS: directly in the html element
+	- internal CSS: using <style> tags & within single document
+	- external CSS: linking an external .css file
+5. firstBox {
+	background-color: yellow;
+}		^	    ^
+	(property)	  (value)
+
+6. Color in CSS
+	- color names
+	- HTML5 color names
+	- hexadecimal
+	- RGB
+7. Size (default font size is 16px)
+8. Difference between Padding and Margin
+	-padding space inside the element and its border
+	-margin space outside the border
+

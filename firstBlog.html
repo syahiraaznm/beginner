@@ -2,10 +2,13 @@
 <html>
 <head>
     <title>Resume Alyssa</title>
+    <link rel="stylesheet" type="text/css" href="./blog.css">
+    <!-- styling css type 2 -->
     <style>
         #blogHeader {
             background-color: rgb(207, 133, 145);
             text-align: center;
+            padding: 5px 0;
         }
         #blogFooter {
             background-color: rgb(207, 133, 145);
@@ -15,35 +18,39 @@
 </head>
 <body>
     <header id="blogHeader">
-        <h1>Alyssa Aznim</h1>
+        <h1 class="name">Alyssa Aznim</h1>
         <h4>Junior Front End Developer</h4>
     </header>
-    <aside>
-        <h3>Go To...</h3>
-        <ul>
-            <li><a href="#">Contact Info</a></li>
-            <li><a href="#">Education</a></li>
-            <li><a href="#">Skills</a></li>
-        </ul>
-    </aside>
-    <section>
-        <article>
-            <h3>Techtics Solution</h3>
-            <small>2020-2021</small>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat fuga illum aliquid corrupti autem sapiente et reprehenderit at atque eaque? Ea odio quo corporis est error obcaecati laboriosam quidem consequuntur?</p>
-        </article>
-        <article>
-            <h3>Petronas Lubricant International</h3>
-            <small>2017</small>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat fuga illum aliquid corrupti autem sapiente et reprehenderit at atque eaque? Ea odio quo corporis est error obcaecati laboriosam quidem consequuntur?</p>
-        </article>
-        <article>
-            <h3>Vista Summerose Sdn Bhd</h3>
-            <small>2017</small>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat fuga illum aliquid corrupti autem sapiente et reprehenderit at atque eaque? Ea odio quo corporis est error obcaecati laboriosam quidem consequuntur?</p>
-        </article>
-    </section>
-
+    <div class="blogContainer">
+        <div class="navWhere">
+            <aside>
+                <h3>Go To...</h3>
+                <ul>
+                    <li><a href="#">Contact Info</a></li>
+                    <li><a href="#">Education</a></li>
+                    <li><a href="#">Skills</a></li>
+                </ul>
+            </aside>
+            <img src="./images/Alyssa.jpg" style= "width: 10rem; height: 12rem;">
+        </div>
+        <section>
+            <article class="jobs">
+                <h3>Techtics Solution</h3>
+                <small>2020-2021</small>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat fuga illum aliquid corrupti autem sapiente et reprehenderit at atque eaque? Ea odio quo corporis est error obcaecati laboriosam quidem consequuntur?</p>
+            </article>
+            <article class="jobs">
+                <h3>Petronas Lubricant International</h3>
+                <small>2017</small>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat fuga illum aliquid corrupti autem sapiente et reprehenderit at atque eaque? Ea odio quo corporis est error obcaecati laboriosam quidem consequuntur?</p>
+            </article>
+            <article class="jobs">
+                <h3>Vista Summerose Sdn Bhd</h3>
+                <small>2017</small>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat fuga illum aliquid corrupti autem sapiente et reprehenderit at atque eaque? Ea odio quo corporis est error obcaecati laboriosam quidem consequuntur?</p>
+            </article>
+        </section>        
+    </div>
     <footer id="blogFooter">
         <p>Copyright &copy; April 2021</p>
     </footer>

@@ -1,0 +1,31 @@
+FLEXBOX
+
+- clean way to arrange items within a container
+- no floats
+- responsive and mobile friendly
+- positioning child elements margin 
+do not collapse with margins of its contents
+- order of elements can easily be changed without editing source of
+HTML
+- ability to alter item width & height to best fit in its containers 
+availble free space
+- flexbox is direction-agnostic
+- built for small-scale layouts while 
+- upcoming "grid" specification is for more large scale
+
+Main flex properties
+1. display: flex | inline-flex;
+2. flex-direction: row | column;
+3. flex-wrap: wrap | nowrap | wrapreverse
+4. flex-basis: <length>
+5. justify-content: center | flex-end| flex-start
+6. align-items: center | flex-end| flex-start
+7. align-content: center | flex-end| flex-start
+8. flex-grow: <number>
+9. flex-shrink: <number>
+10. flex: <integer>
+11. order: <integer>
+
+Flex-direction
+- vertically: column
+- horizontally: row

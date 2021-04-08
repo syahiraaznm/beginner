@@ -1,0 +1,32 @@
+/* styling css type 3 */
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    color:dimgray;
+    font-family: Serif, sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+}
+h1{
+    color:azure;
+}
+.blogContainer {
+    margin: 20px;
+    min-height: 100vh;
+}
+.navWhere {
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.name {
+    text-decoration: underline;
+    letter-spacing: 0.3em;
+}
+.jobs {
+    border: 3px solid pink;
+    padding: 5px;
+    margin: 5px 0;
+}
